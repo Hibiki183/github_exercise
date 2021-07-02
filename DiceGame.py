@@ -20,7 +20,7 @@ totalValue = dice[0] + dice[1]
 print(f'Total Value: {totalValue}')
 
 if totalValue > 7:
-    print('You, won!')
+    print(f'{name}, won!')
 else:
-    print('You, lost!')
+    print(f'{name}, lost!')
 

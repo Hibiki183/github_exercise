@@ -15,3 +15,9 @@ for i in range(2):
 totalValue = dice[0] + dice[1]
 
 print(f'Total Value: {totalValue}')
+
+if totalValue > 7:
+    print('You, won!')
+else:
+    print('You, lost!')
+
